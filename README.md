@@ -83,56 +83,8 @@ v1,...,vm.
 (
 �
 )
-H(σ), définie par :
+H(σ) = Σ_{i=1}^{m-1} d(σ_i, σ_{i+1}) + d(σ_m, σ_1)
 
-�
-(
-�
-)
-=
-∑
-�
-=
-1
-�
-−
-1
-�
-(
-�
-�
-,
-�
-�
-+
-1
-)
-+
-�
-(
-�
-�
-,
-�
-1
-)
-H(σ)=∑ 
-i=1
-m−1
-​
- d(σ 
-i
-​
- ,σ 
-i+1
-​
- )+d(σ 
-m
-​
- ,σ 
-1
-​
- )
 
 Explosion Combinatoire
 La recherche exhaustive de la meilleure solution devient impraticable à mesure que 
